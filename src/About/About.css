@@ -1,0 +1,11 @@
+/* #about {
+    min-height: calc(100vh - 100px - 150px)
+    
+    }
+ */
+
+
+ #about {
+    margin-top: 50px;
+    min-height: calc(100vh  - 60px);
+ }
