@@ -1,6 +1,11 @@
 import React from 'react'
 import './Portfolio.css'
-
+import pic from '../assets/img/portfolio/cabin.png'
+import pic1 from '../assets/img/portfolio/cake.png'
+import pic2 from '../assets/img/portfolio/circus.png'
+import pic3 from '../assets/img/portfolio/game.png'
+import pic4 from '../assets/img/portfolio/safe.png'
+import pic5 from '../assets/img/portfolio/submarine.png'
 
 export default function Portfolio() {
   return (
@@ -23,7 +28,7 @@ export default function Portfolio() {
                             <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img className="img-fluid" src="assets/img/portfolio/cabin.png" alt="" />
+                            <img className="img-fluid" src={pic} alt="" />
                         </div>
                     </div>
                     
@@ -32,7 +37,7 @@ export default function Portfolio() {
                             <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img className="img-fluid" src="assets/img/portfolio/cake.png" alt="" />
+                            <img className="img-fluid" src={pic1} alt="" />
                         </div>
                     </div>
                     
@@ -41,7 +46,7 @@ export default function Portfolio() {
                             <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img className="img-fluid" src="assets/img/portfolio/circus.png" alt="" />
+                            <img className="img-fluid" src={pic2} alt="" />
                         </div>
                     </div>
                     
@@ -50,7 +55,7 @@ export default function Portfolio() {
                             <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img className="img-fluid" src="assets/img/portfolio/game.png" alt="" />
+                            <img className="img-fluid" src={pic3} alt="" />
                         </div>
                     </div>
                     
@@ -59,7 +64,7 @@ export default function Portfolio() {
                             <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img className="img-fluid" src="assets/img/portfolio/safe.png" alt="" />
+                            <img className="img-fluid" src={pic4} alt="" />
                         </div>
                     </div>
                     
@@ -68,7 +73,7 @@ export default function Portfolio() {
                             <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img className="img-fluid" src="assets/img/portfolio/submarine.png" alt="" />
+                            <img className="img-fluid" src={pic5} alt="" />
                         </div>
                     </div>
                 </div>

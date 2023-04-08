@@ -1,16 +1,16 @@
 import React from 'react'
 import './Home.css'
-
+import pic1 from '../assets/img/avataaars.svg'
 
 export default function Home() {
   return (
     <>
     
 
-        <header className="masthead bg-success text-white text-center " id='home'>
+        <header className="masthead bg-success text-white text-center pb-3" id='home'>
             <div className="container d-flex align-items-center flex-column">
                 
-                <img className="masthead-avatar mb-5 w-25" src="assets/img/avataaars.svg" alt=""/>
+                <img className="masthead-avatar mb-5 w-25" src={pic1} alt=""/>
                
                 <h1 className="masthead-heading text-uppercase mb-0">Start React</h1>
                

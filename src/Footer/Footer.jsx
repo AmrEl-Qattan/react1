@@ -1,11 +1,10 @@
 import React from 'react'
-import './Footer.css'
 
 export default function Footer() {
   return (
     <>
-    <footer className="footer text-center fixed-bottom  w-100 bg-dark text-white">
-            {/* <div className="container">
+    <footer className="footer text-center   w-100 bg-dark text-white">
+            <div className="container">
                 <div className="row">
                     
                     <div className="col-lg-4 mb-5 mb-lg-0">
@@ -32,8 +31,8 @@ export default function Footer() {
                         </p>
                     </div>
                 </div>
-            </div> */}
-            <div className="copyright  text-center ">
+            </div>
+            <div className="copyright py-4 text-center ">
             <div className="container"><small>Copyright © Your Website 2021</small></div>
         </div>
         

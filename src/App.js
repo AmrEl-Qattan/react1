@@ -10,6 +10,7 @@ let routers = createBrowserRouter([{
   path:"",element:<LayOut/>,children:[
     {index:true,element:<Home/>},
     {path:"home",element:<Home/>},
+    {path:"react1",element:<Home/>},
     {path:"about",element:<About/>},
     {path:"portfolio",element:<Portfolio/>},
     {path:"contact",element:<Contact/>}
